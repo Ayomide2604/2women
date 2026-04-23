@@ -1836,6 +1836,14 @@
         jQuery(this).removeClass("menu-open");
       }
     });
+    jQuery("header #mainmenu a").on("click", function () {
+      if (mobile_menu_show === 1) {
+        jQuery("header").removeClass("menu-open");
+        jQuery("header").css("height", "auto");
+        mobile_menu_show = 0;
+        jQuery("#menu-btn").removeClass("menu-open");
+      }
+    });
     jQuery("a.btn").on("click", function (evn) {
       if (this.href.indexOf("#") === -1) {
         evn.preventDefault();
