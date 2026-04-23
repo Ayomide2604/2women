@@ -13,7 +13,10 @@ const page = () => {
         description="2 Women and a Lady Cleaning Services is Edmonton’s trusted female-owned cleaning company, serving homes and businesses across Edmonton and nearby communities."
       />
 
-      <AboutUs />
+      
+      <div className="mt-5">
+        <AboutUs  />
+        </div>
       {/* <Team /> */}
       <JoinUs />
       <ContactSection />
