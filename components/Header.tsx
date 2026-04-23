@@ -15,17 +15,17 @@ const Header = () => {
                     <div>
                       <img
                         className="logo-main"
-                        src="/assets/images/logo-black.webp"
+                        src="/assets/images/logo.png"
                         alt=""
                       />
                       <img
                         className="logo-scroll"
-                        src="/assets/images/logo-black.webp"
+                        src="/assets/images/logo.png"
                         alt=""
                       />
                       <img
                         className="logo-mobile"
-                        src="/assets/images/logo-black.webp"
+                        src="/assets/images/logo.png"
                         alt=""
                       />
                     </div>

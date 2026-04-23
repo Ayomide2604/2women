@@ -1,16 +1,12 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="section-dark">
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img
-              src="/assets/images/logo-black.webp"
-              className="w-150px"
-              alt="2 Women and a Lady Cleaning Services"
-            />
+            <h3 className="footer-brand">
+              2 Women and a Lady Cleaning Services
+            </h3>
             <div className="spacer-20" />
             <p>
               2 Women and a Lady Cleaning Services is an Edmonton-based,
