@@ -70,7 +70,7 @@ const Header = () => {
                 <div className="menu_side_area">
                   <div className="h-phone xs-hide">
                     <span>Need Help?</span>
-                    <h5>+1 5000 6000</h5>
+                    <h5>+1 780 709 1707</h5>
                   </div>
                   <Link className="btn-main" href="/book-service">
                     Book Service Now

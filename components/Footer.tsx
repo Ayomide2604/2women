@@ -95,10 +95,10 @@ const Footer = () => {
               Monday - Saturday 08.00 - 18.00
               <div className="spacer-20" />
               <div className="fw-bold text-white">
-                <i className="icofont-location-pin me-2 id-color-2" />
-                Service Area
+                <i className="icofont-phone me-2 id-color-2" />
+                Call / WhatsApp
               </div>
-              Edmonton, Alberta &amp; surrounding communities
+              +1 780 709 1707
               <div className="spacer-20" />
               <div className="fw-bold text-white">
                 <i className="icofont-envelope me-2 id-color-2" />

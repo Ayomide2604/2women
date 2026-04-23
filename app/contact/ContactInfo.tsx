@@ -23,14 +23,18 @@ const ContactInfo = () => {
             <div className="text-center">
               <i className="bg-color text-light fs-32 p-30 circle mb-3 fa-brands fa-whatsapp" />
               <h5 className="mb-0">WhatsApp</h5>
-              +1 780 709 1707
+              <a href="https://wa.me/17807091707" className="text-light">
+                +1 780 709 1707
+              </a>
             </div>
           </div>
           <div className="col-md-3 wow fadeInRight" data-wow-delay=".8s">
             <div className="text-center">
               <i className="bg-color text-light fs-32 p-30 circle mb-3 fa fa-envelope" />
               <h5 className="mb-0">Email</h5>
-              company@2women.com
+              <a href="mailto:company@2women.com" className="text-light">
+                company@2women.com
+              </a>
             </div>
           </div>
         </div>
