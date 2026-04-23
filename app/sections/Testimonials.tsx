@@ -1,9 +1,17 @@
 import React from "react";
 
 const Testimonials = () => {
-  const testimonials = [
+  type Testimonial = {
+    image: string;
+    name: string;
+    role: string;
+    rating: number;
+    quote: string;
+  };
+
+  const testimonials: Testimonial[] = [
     {
-      image: "images/testimonial/1.jpg",
+      image: "/assets/images/testimonial/1.jpg",
       name: "Michael S.",
       role: "Customer",
       rating: 5,
@@ -11,7 +19,7 @@ const Testimonials = () => {
         "Absolutely love this service. They're prompt, thorough, and friendly. I can trust them to clean my home exactly how I want it. Plus, they're affordable and use safe, green products.",
     },
     {
-      image: "images/testimonial/2.jpg",
+      image: "/assets/images/testimonial/2.jpg",
       name: "Robert L.",
       role: "Customer",
       rating: 5,
@@ -19,7 +27,7 @@ const Testimonials = () => {
         "Absolutely love this service. They're prompt, thorough, and friendly. I can trust them to clean my home exactly how I want it. Plus, they're affordable and use safe, green products.",
     },
     {
-      image: "images/testimonial/3.jpg",
+      image: "/assets/images/testimonial/3.jpg",
       name: "Jake M.",
       role: "Customer",
       rating: 5,
@@ -27,7 +35,7 @@ const Testimonials = () => {
         "Absolutely love this service. They're prompt, thorough, and friendly. I can trust them to clean my home exactly how I want it. Plus, they're affordable and use safe, green products.",
     },
     {
-      image: "images/testimonial/4.jpg",
+      image: "/assets/images/testimonial/4.jpg",
       name: "Alex P.",
       role: "Customer",
       rating: 5,
@@ -35,7 +43,7 @@ const Testimonials = () => {
         "Absolutely love this service. They're prompt, thorough, and friendly. I can trust them to clean my home exactly how I want it. Plus, they're affordable and use safe, green products.",
     },
     {
-      image: "images/testimonial/5.jpg",
+      image: "/assets/images/testimonial/5.jpg",
       name: "Carlos R.",
       role: "Customer",
       rating: 5,
@@ -44,7 +52,7 @@ const Testimonials = () => {
     },
   ];
 
-  const renderStars = (rating) => {
+  const renderStars = (rating: number) => {
     return Array.from({ length: rating }, (_, i) => (
       <i key={i} className="fa fa-star" />
     ));
