@@ -6,7 +6,11 @@ const Footer = () => {
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img src="/assets/images/logo-black.webp" className="w-150px" alt="2 Women and a Lady Cleaning Services" />
+            <img
+              src="/assets/images/logo-black.webp"
+              className="w-150px"
+              alt="2 Women and a Lady Cleaning Services"
+            />
             <div className="spacer-20" />
             <p>
               2 Women and a Lady Cleaning Services is an Edmonton-based,
