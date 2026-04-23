@@ -12725,6 +12725,23 @@ img {
     design for 320px
     /* -------------------------------------------------- */
 
+@media only screen and (max-width: 991px) {
+  header #mainmenu {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+  }
+
+  header.menu-open #mainmenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
 @media only screen and (max-width: 480px) {
 
   .text-item {
@@ -12748,6 +12765,10 @@ img {
 
   header a.btn-main i {
     display: inline-block;
+  }
+
+  section.bg-color-3.section-dark.text-light {
+    padding-top: 100px;
   }
 
 }
