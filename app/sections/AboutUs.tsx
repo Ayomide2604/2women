@@ -9,14 +9,15 @@ const AboutUs = () => {
             <div className="col-lg-6 relative">
               <div className="relative z-1000">
                 <div className="subtitle wow fadeInUp" data-wow-delay=".0s">
-                  About Uclean
+                  About 2 Women and a Lady Cleaning Services
                 </div>
-                <h2>Bringing Clean, Comfort, and Care Together</h2>
+                <h2>Edmonton’s Trusted Female-Owned Cleaning Company</h2>
                 <p>
-                  We are a team of passionate cleaning experts who take pride in
-                  delivering the highest standard of service. With years of
-                  experience in the industry, we’ve perfected our cleaning
-                  methods to ensure every job is done right.
+                  Founded in 2023, our locally owned team delivers reliable,
+                  detail-oriented home and commercial cleaning to Edmonton and
+                  surrounding communities. We combine eco-friendly methods with
+                  personal care to ensure every space is fresh, healthy, and
+                  welcoming.
                 </p>
               </div>
             </div>

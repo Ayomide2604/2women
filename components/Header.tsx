@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -10,87 +11,58 @@ const Header = () => {
               <div className="de-flex-col">
                 {/* logo begin */}
                 <div id="logo">
-                  <a href="index.html">
-                    <img
-                      className="logo-main"
-                      src="images/logo-black.webp"
-                      alt=""
-                    />
-                    <img
-                      className="logo-scroll"
-                      src="images/logo-black.webp"
-                      alt=""
-                    />
-                    <img
-                      className="logo-mobile"
-                      src="images/logo-black.webp"
-                      alt=""
-                    />
-                  </a>
+                  <Link href="/">
+                    <div>
+                      <img
+                        className="logo-main"
+                        src="/assets/images/logo-black.webp"
+                        alt=""
+                      />
+                      <img
+                        className="logo-scroll"
+                        src="/assets/images/logo-black.webp"
+                        alt=""
+                      />
+                      <img
+                        className="logo-mobile"
+                        src="/assets/images/logo-black.webp"
+                        alt=""
+                      />
+                    </div>
+                  </Link>
                 </div>
                 {/* logo close */}
               </div>
               <div className="de-flex-col header-col-mid">
                 <ul id="mainmenu">
                   <li>
-                    <a className="menu-item" href="index.html">
+                    <Link className="menu-item" href="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a className="menu-item" href="about.html">
+                    <Link className="menu-item" href="/about">
                       About
-                    </a>
-                  </li>
-                  <li>
-                    <a className="menu-item" href="services.html">
-                      Services
-                    </a>
-                    <ul>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Residential Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Commercial Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Deep Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Move-In/Move-Out Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Post-Construction Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a className="menu-item" href="service-single.html">
-                          Carpet and Upholstery Cleaning
-                        </a>
-                      </li>
-                    </ul>
+                    </Link>
                   </li>
 
                   <li>
-                    <a className="menu-item" href="projects.html">
-                      Projects
-                    </a>
+                    <Link className="menu-item" href="/book-service">
+                      Service
+                    </Link>
                   </li>
 
                   <li>
-                    <a className="menu-item" href="contact.html">
+                    <Link className="menu-item" href="/portfolio">
+                      Portfolio
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link className="menu-item" href="/contact">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -100,9 +72,9 @@ const Header = () => {
                     <span>Need Help?</span>
                     <h5>+1 5000 6000</h5>
                   </div>
-                  <a href="book-service.html" className="btn-main">
+                  <Link className="btn-main" href="/book-service">
                     Book Service Now
-                  </a>
+                  </Link>
                   <span id="menu-btn" />
                 </div>
               </div>

@@ -6,29 +6,22 @@ const Footer = () => {
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img src="images/logo.webp" className="w-150px" alt="" />
+            <img src="/assets/images/logo-black.webp" className="w-150px" alt="2 Women and a Lady Cleaning Services" />
             <div className="spacer-20" />
             <p>
-              We are a team of passionate cleaning experts who take pride in
-              delivering the highest standard of service. With years of
-              experience in the industry, we’ve perfected our cleaning methods
-              to ensure every job is done right.
+              2 Women and a Lady Cleaning Services is an Edmonton-based,
+              female-owned cleaning company delivering reliable residential and
+              commercial cleaning across Edmonton and surrounding areas.
             </p>
             <div className="social-icons mb-sm-30">
               <a href="#">
                 <i className="fa-brands fa-facebook-f" />
               </a>
               <a href="#">
-                <i className="fa-brands fa-x-twitter" />
+                <i className="fa-brands fa-instagram" />
               </a>
               <a href="#">
-                <i className="fa-brands fa-discord" />
-              </a>
-              <a href="#">
-                <i className="fa-brands fa-tiktok" />
-              </a>
-              <a href="#">
-                <i className="fa-brands fa-youtube" />
+                <i className="fa-brands fa-whatsapp" />
               </a>
             </div>
           </div>
@@ -39,22 +32,19 @@ const Footer = () => {
                   <h5>Company</h5>
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="services.html">Our Services</a>
+                      <a href="/book-service">Book Service</a>
                     </li>
                     <li>
-                      <a href="projects.html">Projects</a>
+                      <a href="/portfolio">Portfolio</a>
                     </li>
                     <li>
-                      <a href="about.html">About Us</a>
+                      <a href="/about">About Us</a>
                     </li>
                     <li>
-                      <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -102,15 +92,15 @@ const Footer = () => {
               <div className="spacer-20" />
               <div className="fw-bold text-white">
                 <i className="icofont-location-pin me-2 id-color-2" />
-                Office Location
+                Service Area
               </div>
-              100 S Main St, New York, NY
+              Edmonton, Alberta &amp; surrounding communities
               <div className="spacer-20" />
               <div className="fw-bold text-white">
                 <i className="icofont-envelope me-2 id-color-2" />
                 Send a Message
               </div>
-              contact@uclean.com
+              company@2women.com
             </div>
           </div>
         </div>
@@ -121,7 +111,7 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="de-flex">
                 <div className="de-flex-col">
-                  Copyright 2025 - Uclean by Designesia
+                  Copyright 2026 - 2 Women and a Lady Cleaning Services
                 </div>
                 <ul className="menu-simple">
                   <li>

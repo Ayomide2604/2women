@@ -10,7 +10,7 @@ const page = () => {
       <div id="top"></div>
       <PageBanner
         title="About Us"
-        description="Enjoy a spotless space with our expert cleaning team. Affordable, eco-friendly, and tailored to your needs!"
+        description="2 Women and a Lady Cleaning Services is Edmonton’s trusted female-owned cleaning company, serving homes and businesses across Edmonton and nearby communities."
       />
 
       <AboutUs />

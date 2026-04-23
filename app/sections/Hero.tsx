@@ -4,19 +4,19 @@ const Hero = () => {
   const slides = [
     {
       bgImage: "/assets/images/hero.jpg",
-      subtitle: "Officialy Certified",
-      title: "Refreshing Spaces With Sparkle And Care",
-      teaser: "Fast, Reliable, and Affordable Cleaning Service",
-      buttonText: "Book a Services",
-      buttonHref: "contact.html",
+      subtitle: "Edmonton's Trusted Cleaning Team",
+      title: "2 Women and a Lady Cleaning Services",
+      teaser: "Female-owned residential and commercial cleaning in Edmonton and nearby communities.",
+      buttonText: "Get a Free Quote",
+      buttonHref: "/contact",
     },
     {
       bgImage: "/assets/images/hero2.jpg",
-      subtitle: "Officially Certified",
-      title: "Expert Cleaning Services For Spotless Results",
-      teaser: "Fast, Reliable, and Affordable Cleaning Service",
-      buttonText: "Book a Services",
-      buttonHref: "contact.html",
+      subtitle: "Local Cleaning Experts",
+      title: "Professional, Reliable, and Affordable",
+      teaser: "Deep cleaning, move-in/move-out, carpet cleaning, and post-construction services for Edmonton homes and businesses.",
+      buttonText: "Contact Us",
+      buttonHref: "/contact",
     },
   ];
 
