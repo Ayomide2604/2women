@@ -14,7 +14,8 @@ const InfoBar = () => {
                     <div className="ps-80">
                       <h4 className="mb-0">Areas of Coverage</h4>
                       <p className="mb-0">
-                        Trust us to deliver reliable solutions.
+                        Serving Edmonton, St. Albert, Sherwood Park, Beaumont,
+                        Leduc, Fort Saskatchewan and nearby communities.
                       </p>
                     </div>
                   </div>
@@ -23,9 +24,10 @@ const InfoBar = () => {
                   <div className="relative">
                     <i className="icofont-calendar absolute fs-64 id-color" />
                     <div className="ps-80">
-                      <h4 className="mb-0">Booking Service</h4>
+                      <h4 className="mb-0">Easy Booking</h4>
                       <p className="mb-0">
-                        Trust us to deliver reliable solutions.
+                        Book your home or business cleaning by phone, email, or
+                        WhatsApp for quick appointment scheduling.
                       </p>
                     </div>
                   </div>
@@ -34,9 +36,10 @@ const InfoBar = () => {
                   <div className="relative">
                     <i className="icofont-clock-time absolute fs-64 id-color" />
                     <div className="ps-80">
-                      <h4 className="mb-0">24/7 Emergency</h4>
+                      <h4 className="mb-0">Emergency Cleanup</h4>
                       <p className="mb-0">
-                        Trust us to deliver reliable solutions.
+                        Rapid-response cleanup support for urgent spills,
+                        move-out messes, or construction site needs.
                       </p>
                     </div>
                   </div>

@@ -32,8 +32,8 @@ const ContactInfo = () => {
             <div className="text-center">
               <i className="bg-color text-light fs-32 p-30 circle mb-3 fa fa-envelope" />
               <h5 className="mb-0">Email</h5>
-              <a href="mailto:company@2women.com" className="text-light">
-                company@2women.com
+              <a href="mailto:info@2womenandalady.ca" className="text-light">
+                info@2womenandalady.ca
               </a>
             </div>
           </div>

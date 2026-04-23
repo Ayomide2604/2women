@@ -14,10 +14,10 @@ const AboutUs = () => {
                 <h2>Edmonton’s Trusted Female-Owned Cleaning Company</h2>
                 <p>
                   Founded in 2023, our locally owned team delivers reliable,
-                  detail-oriented home and commercial cleaning to Edmonton and
-                  surrounding communities. We combine eco-friendly methods with
-                  personal care to ensure every space is fresh, healthy, and
-                  welcoming.
+                  detail-oriented home and commercial cleaning across Edmonton
+                  and the surrounding metro area. We serve busy families,
+                  property managers, landlords, and businesses with a personal
+                  touch and eco-friendly care.
                 </p>
               </div>
             </div>

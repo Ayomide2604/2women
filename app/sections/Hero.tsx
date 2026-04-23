@@ -16,7 +16,7 @@ const Hero = () => {
       subtitle: "Local Cleaning Experts",
       title: "Professional, Reliable, and Affordable",
       teaser:
-        "Deep cleaning, move-in/move-out, carpet cleaning, and post-construction services for Edmonton homes and businesses.",
+        "Deep cleaning, move-in/move-out, carpet cleaning, and post-construction services for Edmonton homes, offices, and rental properties.",
       buttonText: "Contact Us",
       buttonHref: "/contact",
     },

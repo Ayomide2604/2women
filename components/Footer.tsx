@@ -14,13 +14,25 @@ const Footer = () => {
               commercial cleaning across Edmonton and surrounding areas.
             </p>
             <div className="social-icons mb-sm-30">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/2womenandalady"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa-brands fa-facebook-f" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/2womenandalady"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa-brands fa-instagram" />
               </a>
-              <a href="#">
+              <a
+                href="https://wa.me/17807091707"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa-brands fa-whatsapp" />
               </a>
             </div>
@@ -54,28 +66,22 @@ const Footer = () => {
                   <h5>Our Services</h5>
                   <ul>
                     <li>
-                      <a href="service-single.html">Residential Cleaning</a>
+                      <a href="/services">Residential Cleaning</a>
                     </li>
                     <li>
-                      <a href="service-single.html">Commercial Cleaning</a>
+                      <a href="/services">Commercial Cleaning</a>
                     </li>
                     <li>
-                      <a href="service-single.html">Deep Cleaning</a>
+                      <a href="/services">Deep Cleaning</a>
                     </li>
                     <li>
-                      <a href="service-single.html">
-                        Move-In/Move-Out Cleaning
-                      </a>
+                      <a href="/services">Move-In/Move-Out Cleaning</a>
                     </li>
                     <li>
-                      <a href="service-single.html">
-                        Post-Construction Cleaning
-                      </a>
+                      <a href="/services">Post-Construction Cleaning</a>
                     </li>
                     <li>
-                      <a href="service-single.html">
-                        Carpet and Upholstery Cleaning
-                      </a>
+                      <a href="/services">Carpet and Upholstery Cleaning</a>
                     </li>
                   </ul>
                 </div>
@@ -94,13 +100,13 @@ const Footer = () => {
                 <i className="icofont-phone me-2 id-color-2" />
                 Call / WhatsApp
               </div>
-              +1 780 709 1707
+              <a href="tel:+17807091707">+1 780 709 1707</a>
               <div className="spacer-20" />
               <div className="fw-bold text-white">
                 <i className="icofont-envelope me-2 id-color-2" />
                 Send a Message
               </div>
-              company@2women.com
+              <a href="mailto:info@2womenandalady.ca">info@2womenandalady.ca</a>
             </div>
           </div>
         </div>

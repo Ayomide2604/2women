@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const Header = () => {
@@ -16,17 +15,17 @@ const Header = () => {
                       <img
                         className="logo-main"
                         src="/assets/images/logo.png"
-                        alt=""
+                        alt="2 Women and a Lady Cleaning Services logo"
                       />
                       <img
                         className="logo-scroll"
                         src="/assets/images/logo.png"
-                        alt=""
+                        alt="2 Women and a Lady Cleaning Services logo"
                       />
                       <img
                         className="logo-mobile"
                         src="/assets/images/logo.png"
-                        alt=""
+                        alt="2 Women and a Lady Cleaning Services logo"
                       />
                     </div>
                   </Link>
@@ -70,7 +69,9 @@ const Header = () => {
                 <div className="menu_side_area">
                   <div className="h-phone xs-hide">
                     <span>Need Help?</span>
-                    <h5>+1 780 709 1707</h5>
+                    <h5>
+                      <a href="tel:+17807091707">+1 780 709 1707</a>
+                    </h5>
                   </div>
                   <Link className="btn-main" href="/book-service">
                     Book Service Now
