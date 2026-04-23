@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     images: ["/logo.jpeg"],
   },
   icons: {
-    icon: "/logo.jpeg",
-    shortcut: "/logo.jpeg",
-    apple: "/logo.jpeg",
+    icon: "/favicons/favicon.ico",
+    shortcut: "/favicons/favicon-32x32.png",
+    apple: "/favicons/apple-touch-icon.png",
   },
 };
 
@@ -63,8 +63,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="theme-color" content="#0171c5" />
-        <link rel="icon" href="/logo.jpeg" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+        <link rel="shortcut icon" href="/favicons/favicon.ico" />
+        <link rel="manifest" href="/favicons/manifest.json" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/plugins.css" />
         <link rel="stylesheet" href="/assets/css/swiper.css" />
