@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
-
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,8 +13,50 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body>{children}</body>
+    <html lang="en">
+      <head>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/plugins.css" />
+        <link rel="stylesheet" href="/assets/css/swiper.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/coloring.css" />
+        <link rel="stylesheet" href="/assets/css/colors/scheme-01.css" />
+      </head>
+      <body>
+        <div id="wrapper">
+          <div className="float-text show-on-scroll">
+            <span>
+              <a href="#">Scroll to top</a>
+            </span>
+          </div>
+          <div className="scrollbar-v show-on-scroll" />
+          {/* page preloader begin */}
+          <div id="de-loader" />
+          {/* page preloader close */}
+
+          {children}
+        </div>
+
+        <Script src="/assets/js/plugins.js" strategy="afterInteractive" />
+        <Script src="/assets/js/designesia.js" strategy="afterInteractive" />
+        <Script src="/assets/js/swiper.js" strategy="afterInteractive" />
+        <Script
+          src="/assets/js/custom-marquee.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/custom-swiper-1.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/jquery.event.move.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/assets/js/jquery.twentytwenty.js"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
