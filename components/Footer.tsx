@@ -115,18 +115,22 @@ const Footer = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-12">
-              <div className="de-flex">
-                <div className="de-flex-col">
+              <div className="d-flex flex-column flex-md-row justify-content-between gap-3 gap-md-0">
+                <div className="text-center text-md-start">
                   Copyright 2026 - 2 Women and a Lady Cleaning Services
                 </div>
-                <ul className="menu-simple">
-                  <li>
-                    <a href="#">Terms &amp; Conditions</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                </ul>
+                <div className="text-center text-md-end">
+                  Website by{" "}
+                  <a
+                    href="https://webstridestudios.ca"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Webstride Studios web design and SEO services"
+                    className="ms-2 text-muted"
+                  >
+                    Webstride Studios
+                  </a>
+                </div>
               </div>
             </div>
           </div>
