@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -33,8 +35,9 @@ export default function RootLayout({
           {/* page preloader begin */}
           <div id="de-loader" />
           {/* page preloader close */}
-
+          <Header />
           {children}
+          <Footer />
         </div>
 
         <Script src="/assets/js/plugins.js" strategy="afterInteractive" />
