@@ -10,8 +10,8 @@ const Team = () => {
       social: {
         facebook: "#",
         twitter: "#",
-        instagram: "#"
-      }
+        instagram: "#",
+      },
     },
     {
       id: 2,
@@ -21,8 +21,8 @@ const Team = () => {
       social: {
         facebook: "#",
         twitter: "#",
-        instagram: "#"
-      }
+        instagram: "#",
+      },
     },
     {
       id: 3,
@@ -32,8 +32,8 @@ const Team = () => {
       social: {
         facebook: "#",
         twitter: "#",
-        instagram: "#"
-      }
+        instagram: "#",
+      },
     },
     {
       id: 4,
@@ -43,9 +43,9 @@ const Team = () => {
       social: {
         facebook: "#",
         twitter: "#",
-        instagram: "#"
-      }
-    }
+        instagram: "#",
+      },
+    },
   ];
 
   return (

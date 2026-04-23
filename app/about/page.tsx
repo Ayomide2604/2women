@@ -14,7 +14,7 @@ const page = () => {
       />
 
       <AboutUs />
-      <Team />
+      {/* <Team /> */}
       <JoinUs />
       <ContactSection />
     </div>
