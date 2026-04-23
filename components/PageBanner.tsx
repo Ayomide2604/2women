@@ -45,6 +45,7 @@ const PageBanner: React.FC<PageBannerProps> = ({
               data-500="transform: translateY(300px);"
               alt=""
             />
+            {" "}
           </div>
         </div>
       </div>
